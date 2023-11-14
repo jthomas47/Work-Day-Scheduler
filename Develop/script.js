@@ -12,6 +12,18 @@ var hour14El = document.querySelector('#hour-14');
 var hour15El = document.querySelector('#hour-15'); 
 var hour16El = document.querySelector('#hour-16'); 
 var hour17El = document.querySelector('#hour-17'); 
+var saveBtn = document.querySelectorAll('.saveBtn'); 
+
+function displaySchedule() {
+  
+  hour9El.children[1].value = events;
+  for(let i = 9; i < 18; i++) {
+    var item = 'hour-' + i;
+    var events = localStorage.getItem(item); 
+    document.getElementById(item).children[1].value = events; 
+  }
+  
+}
 
 
 //displays the current date
@@ -25,6 +37,7 @@ function setColor() {
 
   //current hour
   var currentHour = dayjs().hour(); 
+  console.log(currentHour); 
   
   //9AM
   if (currentHour < 9) {
@@ -109,6 +122,12 @@ function setColor() {
 
 }
 
+//saves message
+function handleSave(event) {
+  var text = this.previousElementSibling.value;
+  localStorage.setItem(event.target.parentElement.id, text); 
+}
+
 
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
@@ -130,5 +149,11 @@ $(function () {
   //
   // TODO: Add code to display the current date in the header of the page.
 });
+
+for (let i = 0; i < saveBtn.length; i++) {
+  saveBtn[i].addEventListener('click', handleSave); 
+}
+
 displayDate(); 
 setColor(); 
+displaySchedule();

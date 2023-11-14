@@ -11,4 +11,4 @@ https://jthomas47.github.io/Work-Day-Scheduler/
 
 screenshot 
 
-![Screenshot](./assets/images/wds.PNG)
+![Screenshot](./assets/wds.PNG)

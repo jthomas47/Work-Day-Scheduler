@@ -41,83 +41,83 @@ function setColor() {
   
   //9AM
   if (currentHour < 9) {
-    hour9El.setAttribute('class', 'future'); 
+    hour9El.setAttribute('class', 'row time-block future'); 
   } else if (currentHour > 9) {
-    hour9El.setAttribute('class', 'past'); 
+    hour9El.setAttribute('class', 'row time-block past'); 
   } else {
-    hour9El.setAttribute('class', 'present'); 
+    hour9El.setAttribute('class', 'row time-block present'); 
   }
   
   //10AM
   if (currentHour < 10) {
-    hour10El.setAttribute('class', 'future'); 
+    hour10El.setAttribute('class', 'row time-block future'); 
   } else if (currentHour > 10) {
-    hour10El.setAttribute('class', 'past'); 
+    hour10El.setAttribute('class', 'row time-block past'); 
   } else {
-    hour10El.setAttribute('class', 'present'); 
+    hour10El.setAttribute('class', 'row time-block present'); 
   }
 
   //11AM
   if (currentHour < 11) {
-    hour11El.setAttribute('class', 'future'); 
+    hour11El.setAttribute('class', 'row time-block future'); 
   } else if (currentHour > 11) {
-    hour11El.setAttribute('class', 'past'); 
+    hour11El.setAttribute('class', 'row time-block past'); 
   } else {
-    hour11El.setAttribute('class', 'present'); 
+    hour11El.setAttribute('class', 'row time-block present'); 
   }
 
   //12PM
   if (currentHour < 12) {
-    hour12El.setAttribute('class', 'future'); 
+    hour12El.setAttribute('class', 'row time-block future'); 
   } else if (currentHour > 12) {
-    hour12El.setAttribute('class', 'past'); 
+    hour12El.setAttribute('class', 'row time-block past'); 
   } else {
-    hour12El.setAttribute('class', 'present'); 
+    hour12El.setAttribute('class', 'row time-block present'); 
   }
 
   //1PM
   if (currentHour < 13) {
-    hour13El.setAttribute('class', 'future'); 
+    hour13El.setAttribute('class', 'row time-block future'); 
   } else if (currentHour > 13) {
-    hour13El.setAttribute('class', 'past'); 
+    hour13El.setAttribute('class', 'row time-block past'); 
   } else {
-    hour13El.setAttribute('class', 'present'); 
+    hour13El.setAttribute('class', 'row time-block present'); 
   }
 
   //2PM
   if (currentHour < 14) {
-    hour14El.setAttribute('class', 'future'); 
+    hour14El.setAttribute('class', 'row time-block future'); 
   } else if (currentHour > 14) {
-    hour14El.setAttribute('class', 'past'); 
+    hour14El.setAttribute('class', 'row time-block past'); 
   } else {
-    hour14El.setAttribute('class', 'present'); 
+    hour14El.setAttribute('class', 'row time-block present'); 
   }
 
   //3PM
   if (currentHour < 15) {
-    hour15El.setAttribute('class', 'future'); 
+    hour15El.setAttribute('class', 'row time-block future'); 
   } else if (currentHour > 15) {
-    hour15El.setAttribute('class', 'past'); 
+    hour15El.setAttribute('class', 'row time-block past'); 
   } else {
-    hour15El.setAttribute('class', 'present'); 
+    hour15El.setAttribute('class', 'row time-block present'); 
   }
 
   //4PM
   if (currentHour < 16) {
-    hour16El.setAttribute('class', 'future'); 
+    hour16El.setAttribute('class', 'row time-block future'); 
   } else if (currentHour > 16) {
-    hour16El.setAttribute('class', 'past'); 
+    hour16El.setAttribute('class', 'row time-block past'); 
   } else {
-    hour16El.setAttribute('class', 'present'); 
+    hour16El.setAttribute('class', 'row time-block present'); 
   }
 
   //5PM
   if (currentHour < 17) {
-    hour17El.setAttribute('class', 'future'); 
+    hour17El.setAttribute('class', 'row time-block future'); 
   } else if (currentHour > 17) {
-    hour17El.setAttribute('class', 'past'); 
+    hour17El.setAttribute('class', 'row time-block past'); 
   } else {
-    hour17El.setAttribute('class', 'present'); 
+    hour17El.setAttribute('class', 'row time-block present'); 
   }
 
 }

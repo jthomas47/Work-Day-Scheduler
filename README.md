@@ -7,8 +7,8 @@ The goal for this challenge was to Create a simple calendar application that all
 ## Usage
 
 link
-https://jthomas47.github.io/-Code-Quiz/
+https://jthomas47.github.io/Work-Day-Scheduler/
 
 screenshot 
 
-![Screenshot](./assets/images/code-quiz.PNG)
+![Screenshot](./assets/images/wds.PNG)

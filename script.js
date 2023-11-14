@@ -16,8 +16,7 @@ var saveBtn = document.querySelectorAll('.saveBtn');
 
 //saves items to local storage
 function displaySchedule() {
-  
-  hour9El.children[1].value = events;
+
   for(let i = 9; i < 18; i++) {
     var item = 'hour-' + i;
     var events = localStorage.getItem(item); 
@@ -38,7 +37,6 @@ function setColor() {
 
   //current hour
   var currentHour = dayjs().hour(); 
-  console.log(currentHour); 
   
   //9AM
   if (currentHour < 9) {
